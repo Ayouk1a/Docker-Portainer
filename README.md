@@ -2,20 +2,17 @@
 
 ## Introduction
 
-Ce projet vous permet de déployer **Portainer** dans un conteneur Docker en utilisant **Docker Compose**. Portainer est une interface graphique qui vous permet de gérer facilement vos conteneurs Docker. En quelques étapes simples, vous pourrez configurer Portainer pour gérer votre environnement Docker.
+Ce projet permet de déployer **Portainer** dans un conteneur Docker sur un **Raspberry Pi**. Portainer est une interface graphique de gestion des conteneurs Docker, ce qui simplifie grandement la gestion de vos containers.
 
 ## Prérequis
 
-Avant de commencer, vous devez vous assurer que vous avez les éléments suivants installés sur votre machine :
+Avant de commencer, vous devez avoir un Raspberry Pi avec **Docker** et **Docker Compose** installés. Si ce n'est pas le cas, vous pouvez consulter la documentation officielle de Docker pour installer ces outils.
 
-- **Docker** : [Guide d'installation Docker](https://docs.docker.com/get-docker/)
-- **Docker Compose** : [Guide d'installation Docker Compose](https://docs.docker.com/compose/install/)
-
-## Installation
+## Installation et Lancement de Portainer
 
 ### 1. Clonez ce dépôt
 
-Cloner le dépôt sur votre machine locale :
+Tout d'abord, clonez ce dépôt sur votre Raspberry Pi :
 
 ```bash
 git clone https://github.com/Ayouk1a/Docker-Portainer.git
